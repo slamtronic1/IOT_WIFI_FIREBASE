@@ -32,7 +32,7 @@ window.saveMessage = function () {
   const message = input.value.trim();
 
   if (message === "") {
-    status.innerText = "اكتب رسالة أولاً";
+    status.innerText = "اكتب == رسالة أولاً";
     return;
   }
 
